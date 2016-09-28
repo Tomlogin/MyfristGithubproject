@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+   <include
+       layout="@layout/include_actionbar"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        style="@style/setting_style"
+        android:text="@string/opentext"
+         />
+    <ToggleButton
+        android:id="@+id/setting_open"
+        style="@style/setting_buttons_style"
+        />
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/setting_style"
+            android:text="@string/inform"
+            />
+        <ToggleButton
+            android:id="@+id/setting_inform"
+            style="@style/setting_buttons_style"
+            />
+    </RelativeLayout>
+    <TextView
+    android:id="@+id/setting_aboutus"
+    android:layout_width="match_parent"
+    style="@style/setting_style"
+    android:text="@string/aboutustext"
+    android:drawableRight="@drawable/ic_arrows_right"/>
+    <TextView
+        android:id="@+id/setting_help"
+        android:layout_width="match_parent"
+        style="@style/setting_style"
+        android:text="@string/helptext"
+        android:drawableRight="@drawable/ic_arrows_right"/>
+</LinearLayout>

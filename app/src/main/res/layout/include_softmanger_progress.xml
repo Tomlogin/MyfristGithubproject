@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="内置空间（已使用/全部）"
+        />
+    <ProgressBar
+        android:id="@+id/softmanger_progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progressDrawable="@drawable/progressbar_speadup"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:padding="5dp"
+        android:max="100"
+        android:progress="10"/>
+    <TextView
+        android:id="@+id/tv_sizethree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0b/0b"
+        android:layout_gravity="right"/>
+</LinearLayout>

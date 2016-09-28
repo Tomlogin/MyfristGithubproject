@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="piechar_phonespace_progressbar_bg">#FFFF8C00</color>
+    <color name="piechar_phone">#FF000099</color>
+    <color name="piechar_sdcard">#FF00AA00</color>
+    <color name="white">#FFf</color>
+    <color name="black">#000</color>
+    <color name="red">#f00</color>
+    <color name="gray">#f5f5f5</color>
+</resources>

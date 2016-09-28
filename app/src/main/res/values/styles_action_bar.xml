@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_action_bar">50dp</dimen>
+    <dimen name="text_actionbar_tetile">18sp</dimen>
+
+<!-- actionbar icon属性配置-->
+<style name="iv_action_bar">
+    <item name="android:layout_width">40dp</item>
+    <item name="android:layout_height">40dp</item>
+    <item name="android:layout_centerVertical">true</item>
+</style>
+</resources>

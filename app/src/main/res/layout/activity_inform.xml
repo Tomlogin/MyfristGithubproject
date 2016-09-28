@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/inform_layout"
+    android:background="#000"
+    >
+<ImageView
+    android:id="@+id/inform_imgone"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_launcher"
+    />
+    <TextView
+        android:id="@+id/inform_tv_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机助手"
+        android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/inform_imgone"/>
+    <TextView
+        android:id="@+id/inform_tv_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击使用"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/inform_tv_one"
+        android:textColor="#fff"
+        android:layout_toRightOf="@+id/inform_imgone"/>
+    <ImageView
+        android:id="@+id/inform_imgtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_telmgr"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"/>
+    <TextView
+
+        android:layout_width="1dp"
+        android:layout_height="60dp"
+        android:background="#fff"
+        android:layout_toLeftOf="@+id/inform_imgtwo"
+        android:layout_marginRight="8dp"/>
+</RelativeLayout>

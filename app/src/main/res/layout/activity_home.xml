@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+<include
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/include_actionbar_layout"
+    layout="@layout/include_actionbar"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/include_speadup_ball_layout"
+        layout="@layout/include_speadup_ball"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/include_home_buttons_layout"
+        layout="@layout/include_home_buttons"
+        />
+</LinearLayout>

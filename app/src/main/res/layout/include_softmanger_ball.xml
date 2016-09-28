@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:padding="5dp">
+    <azsecuer.andriody.com.azsecuer.util.PiecharView
+        android:id="@+id/piecharview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#f0f0f0"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="20dp"
+        />
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机空间使用情况"
+            />
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_marginRight="5dp"
+                android:background="#000fff"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                />
+            <TextView
+                android:id="@+id/sm_ball_tvtextone"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="内置空间"
+                />
+            <TextView
+                android:id="@+id/sm_ball_tvsizeone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0B"
+                android:textColor="#000fff"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_marginRight="5dp"
+                android:background="#00ff00"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                />
+            <TextView
+                android:id="@+id/sm_ball_tvtexttwo"
+                android:layout_marginRight="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="外置空间"
+                />
+            <TextView
+                android:id="@+id/sm_ball_tvsizetwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00ff00"
+                android:text="0B"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

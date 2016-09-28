@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60dp"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:id="@+id/filemager_listitem_tvname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="任意文件"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/filemager_listitem_tvsize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/filemager_listitem_tvname"
+        android:text="0MB"
+        android:textSize="20sp"
+        android:textColor="#000" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/filemanger_listitem_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_arrows_right"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/filemanger_listitem_pb"
+            style="?android:attr/progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateBehavior="repeat"
+            android:indeterminateDrawable="@drawable/loading_rotate"
+            android:indeterminateDuration="400"
+            android:indeterminateOnly="true"
+            android:visibility="visible" />
+    </FrameLayout>
+
+</RelativeLayout>

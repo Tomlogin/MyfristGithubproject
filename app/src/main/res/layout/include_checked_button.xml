@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<CheckBox
+    android:id="@+id/spead_checkbox"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:focusable="false"
+    android:background="@drawable/selector_button"
+    />
+    <Button
+        android:id="@+id/spead_buttontwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一键清理"
+        android:background="#00ffff"
+        android:layout_margin="5dp"/>
+</LinearLayout>

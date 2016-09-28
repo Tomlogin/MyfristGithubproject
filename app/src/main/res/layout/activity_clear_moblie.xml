@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.Clear_moblie">
+        <include
+            android:id="@+id/include_title"
+            layout="@layout/include_actionbar"/>
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="#00ffff">
+            <TextView
+                android:id="@+id/tvtwo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="清理缓存"
+                android:textSize="25dp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="50dp"/>
+        </LinearLayout>
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        layout="@layout/include_clear_listview"/>
+    <Button
+        android:id="@+id/button_clear"
+        android:background="#00ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="清理"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+</LinearLayout>

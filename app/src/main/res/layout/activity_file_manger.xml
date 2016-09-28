@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FileMangerActivity">
+<include
+    layout="@layout/include_actionbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#0000ff">
+        <TextView
+            android:id="@+id/filemanger_tv_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="45.40 M"
+            android:textSize="30sp"
+            android:textColor="#fff"
+            android:layout_centerInParent="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已发现"
+            android:textSize="20sp"
+            android:textColor="#fff"
+            android:layout_above="@+id/filemanger_tv_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp" />
+        <Button
+            android:id="@+id/filemanger_button"
+            android:background="@drawable/speadup_button"
+            android:layout_width="120dp"
+            android:layout_height="20dp"
+            android:text="深度搜索"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            android:layout_below="@+id/filemanger_tv_size"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/filemanger_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

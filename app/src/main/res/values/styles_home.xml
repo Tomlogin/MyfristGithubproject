@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主界面的文本信息 -->
+    <string name="tv_spead_ball_text">测试使用</string>
+    <string name="home_buttons_about">关于我们</string>
+    <string name="home_buttons_setting">设置</string>
+    <string name="home_buttons_speadup">手机加速</string>
+    <string name="home_buttons_softmger">软件管理</string>
+    <string name="home_buttons_mobilemgr">手机检测</string>
+    <string name="home_buttons_telmgr">通讯大全</string>
+    <string name="home_buttons_filemgr">文件管理</string>
+    <string name="home_buttons_rubbishclean">垃圾清理</string>
+    <!-- home界面的一些配置信息-->
+    <dimen name="width_speed_ball">230dp</dimen>
+    <dimen name="height_speed_ball">310dp</dimen>
+    <dimen name="padding_home_item">20dp</dimen>
+    <dimen name="padding_home_item_darw">10sp</dimen>
+    <dimen name="size_home_item_text">15sp</dimen>
+
+    <!-- home界面button的配置信息-->
+    <style name="home_buttons_style">
+        <item name="android:layout_margin">0.5dp</item>
+        <item name="android:background">@drawable/selector_button</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:padding">@dimen/padding_home_item</item>
+        <item name="android:drawablePadding">@dimen/padding_home_item_darw</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">#000</item>
+        <item name="android:textSize">@dimen/size_home_item_text</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:singleLine">true</item>
+    </style>
+</resources>

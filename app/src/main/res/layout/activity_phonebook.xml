@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/phonebook_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/btn_homeasup_default"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="通讯大全"
+            android:textSize="25sp"
+            android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_below="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#00ffff">
+        <TextView
+            android:id="@+id/tvtwo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="一站式号码服务平台"
+            android:textSize="25dp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+    </LinearLayout>
+
+        <ListView
+
+            android:layout_below="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listview">
+
+        </ListView>
+
+
+
+
+
+</RelativeLayout>

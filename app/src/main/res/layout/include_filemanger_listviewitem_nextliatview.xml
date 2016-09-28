@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:layout_above="@+id/include_filemanger_checkboxandbutton"
+        android:id="@+id/filemager_listitem_nextlistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="blocksDescendants"/>
+
+    <include
+        android:id="@+id/include_filemanger_checkboxandbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/include_checked_button"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

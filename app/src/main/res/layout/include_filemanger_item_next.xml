@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文件数量:"
+        android:textSize="15sp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:id="@+id/filenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="635"
+       android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#ff0000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="占用空间:"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:id="@+id/filesize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="635M"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:textColor="#ff0000"/>
+</LinearLayout>
