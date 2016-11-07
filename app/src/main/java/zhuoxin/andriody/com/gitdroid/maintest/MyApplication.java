@@ -1,4 +1,4 @@
-package zhuoxin.andriody.com.gitdroid;
+package zhuoxin.andriody.com.gitdroid.maintest;
 
 import android.app.Application;
 
@@ -21,4 +21,5 @@ public class MyApplication extends Application {
                 .build();
         OkHttpUtils.initClient(okHttpClient);
     }
+
 }

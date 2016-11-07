@@ -3,10 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="zhuoxin.andriody.com.gitdroid.maintest.MainActivity">
-<ListView
-    android:id="@+id/listview"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-</ListView>
+    tools:context="zhuoxin.andriody.com.gitdroid.retrofit.RetrofitActivity">
+    <Button android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Retrofit的GET请求"
+        android:id="@+id/btn_retrofit"/>
 </RelativeLayout>

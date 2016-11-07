@@ -2,19 +2,27 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="zhuoxin.andriody.com.gitdroid">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".okhttpget.OkhttpGetActivity" />
+        <activity android:name=".maintest.LoginActivity" />
+        <activity android:name=".okhttppost.OkhttpPostActivity" />
+        <activity android:name=".retrofit.RetrofitActivity" />
+        <activity android:name=".retrofit.RetrofitpsotActivity" />
+        <activity android:name=".maintest.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".gitretrofit.GitRetrofitActivity"></activity>
     </application>
 
 </manifest>
